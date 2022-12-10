@@ -44,5 +44,4 @@ const Users = db.define('users', {
     }
 })
 
-
 module.exports = Users

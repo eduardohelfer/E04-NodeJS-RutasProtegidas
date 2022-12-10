@@ -1,5 +1,18 @@
 Entregable #05 NodeJS - Proyecto rutas protegidas
 https://academlo.notion.site/Proyecto-Rutas-Protegidas-833dbfc03dec4e36bf7085190f0daf8b
+
+Rutas No Protegidas:
+-------------------
+GET    http://localhost:9000/
+GET    http://localhost:9000/api/v1/users
+POST   http://localhost:9000/api/v1/users
+GET    http://localhost:9000/api/v1/users/:id
+POST   http://localhost:9000/api/v1/auth/login
+
+Rutas Protegidas:
+----------------
+PATCH   http://localhost:9000/api/v1/users/:id
+DELETE  http://localhost:9000/api/v1/users/:id
 -------------------------------------------------------------
 Terminal
 -------------------------------------------------------------
